@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles.css')}}">
+  </head>
+  <body>
+<h2>Your Details</h2>
+  <form class="" action="/contact" method="post">
+    <label for="">Your Name:</label><br>
+    <input type="text" name="Name" value=""><br>
+    <label for="">Your Gamail:</label><br>
+    <input type="Gamail" name="E-mail" value=""><br>
+    <label for="">Your Message:</label> <br>
+    <textarea name="Your_Message"  rows="5" cols="50"></textarea><br>
+    <label for=""><strong style="color:blue;">Confirm</strong></label>
+    <input type="checkbox" name="" value="">
+    <button type="submit" name="submit">submit</button>
+  </form><hr>
+  <h3>Contact Details</h3>
+  <ul style="color:#8D8DAA">
+    <li>Kolkata</li>
+    <li>Gmail-aritra@gmail.com</li>
+    <li>Mobile-8618938121</li>
+  </ul><hr>
+  </body>
+</html>
